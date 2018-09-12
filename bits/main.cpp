@@ -26,6 +26,7 @@ bitset<2*N> multi(bitset<N> m, bitset<N> q){
     qr>>=1;
     qr[N-1]=tmp;
     a[N-1]=c;
+    c=0;
     cont--;
     j++;
   }
